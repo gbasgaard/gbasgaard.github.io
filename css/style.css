@@ -74,3 +74,35 @@ body {
   cursor: pointer;
   color: whitesmoke;
 }
+
+#about {
+  text-align: center;
+  padding: 100px 0 140px;
+  background: whitesmoke;
+}
+#about h1 {
+  font-size: 1.9em;
+  color: #7c8184;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+#about a {
+  color: black;
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+#about a:hover {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid lightblue;
+}
+#about p {
+  color: #666666;
+  margin: 0 auto;
+  font-size: 1.4em;
+  letter-spacing: 0.04em;
+  line-height: 1.7em;
+  font-weight: 300;
+}
