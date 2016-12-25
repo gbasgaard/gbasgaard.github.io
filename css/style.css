@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400, 700');
 
 body {
   font-family: 'Josefin Sans', sans-serif;
@@ -106,3 +106,58 @@ body {
   line-height: 1.7em;
   font-weight: 300;
 }
+
+
+
+
+
+#interests {
+  padding-top: 70px;
+  padding-bottom: 105px;
+  /* text-align: center; */ /*DECIDE ON CENTER OR LEFT ALIGN */
+}
+#interests h1 {
+  margin-bottom: 35px;
+  font-size: 2em;
+  color: gray;
+  letter-spacing: 0.2em;
+}
+#interests a {
+  color: black;
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+#interests a:hover {
+  text-decoration: none;
+}
+
+#interests .row:last-child {
+  border-top: 1px solid #ebebeb;
+}
+#interests .row .column {
+  padding: 30px;
+  border-left: 1px solid #ebebeb;
+}
+#interests .row .column:first-of-type {
+  border-left: none;
+}
+#interests h3 {
+  color: #4c4c4c;
+  letter-spacing: 0.2em;
+  font-size: 1.4em;
+  padding-bottom: 10px;
+}
+#interests p {
+  color: #595959;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#interests .pop-text {
+  font-weight: bold;
+}
+
+
