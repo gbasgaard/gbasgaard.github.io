@@ -84,6 +84,12 @@ body {
   color: whitesmoke;
 }
 
+.profile {
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+
 #about {
   text-align: center;
   padding: 100px 0 140px;
