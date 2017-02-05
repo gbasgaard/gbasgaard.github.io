@@ -87,7 +87,7 @@ body {
 .profile {
   width: 50%;
   height: 50%;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 #about {
@@ -173,6 +173,11 @@ body {
 
 #interests .pop-text {
   font-weight: bold;
+}
+
+.portfolio-img {
+  width: 400px;
+  height: 400px;
 }
 
 footer {
