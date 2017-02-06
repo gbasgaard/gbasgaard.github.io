@@ -58,6 +58,18 @@ body {
   color: whitesmoke;
 }
 
+#hero #phone {
+  position: absolute;
+  bottom: 3%;
+  width: 50%;
+}
+
+#hero #email {
+  position: absolute;
+  bottom: 3%;
+  width: 150%;
+}
+
 #hero .chevron {
   position: absolute;
   bottom: 3%;
@@ -70,14 +82,8 @@ body {
   text-align: center;
   color: #D3D3D3;
 }
-#hero .chevron div {
-  font-size: 0.9em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
 #hero .chevron .down {
   color: #a8a8a8;
-  font-size: 3em;
 }
 #hero .chevron .down:hover {
   cursor: pointer;
