@@ -58,36 +58,45 @@ body {
   color: whitesmoke;
 }
 
-#hero #phone {
+#hero .phone {
   position: absolute;
   bottom: 3%;
   width: 50%;
+  font-size: 1.2em;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -o-animation-delay: 1.8s;
+  ms-animation-delay: 1.8s;
 }
 
-#hero #email {
+#hero .email {
   position: absolute;
   bottom: 3%;
   width: 150%;
+  font-size: 1.2em;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -o-animation-delay: 1.8s;
+  ms-animation-delay: 1.8s;
+}
+
+#hero .phone a, #hero .email a {
+  color: inherit;
 }
 
 #hero .chevron {
   position: absolute;
   bottom: 3%;
   width: 100%;
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  ms-animation-delay: 2s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  ms-animation-delay: 1s;
   text-align: center;
   color: #D3D3D3;
-}
-#hero .chevron .down {
-  color: #a8a8a8;
-}
-#hero .chevron .down:hover {
-  cursor: pointer;
-  color: whitesmoke;
 }
 
 .profile {
