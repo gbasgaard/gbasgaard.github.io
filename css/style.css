@@ -61,8 +61,8 @@ body {
 #hero .phone {
   position: absolute;
   bottom: 3%;
-  width: 50%;
-  font-size: 1.2em;
+  left: 5%;
+  font-size: 1.1em;
   animation-delay: 1.8s;
   -webkit-animation-delay: 1.8s;
   -moz-animation-delay: 1.8s;
@@ -73,8 +73,8 @@ body {
 #hero .email {
   position: absolute;
   bottom: 3%;
-  width: 150%;
-  font-size: 1.2em;
+  right: 5%;
+  font-size: 1.1em;
   animation-delay: 1.8s;
   -webkit-animation-delay: 1.8s;
   -moz-animation-delay: 1.8s;
@@ -89,7 +89,7 @@ body {
 #hero .chevron {
   position: absolute;
   bottom: 3%;
-  width: 100%;
+  left: 48.5%;
   animation-delay: 1s;
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
